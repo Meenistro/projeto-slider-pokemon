@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porjeto Pokemon Slider MapaDeWeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&family=Titillium+Web&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="src/css/reset.css">
+
+<link rel="stylesheet" href="src/css/estilos.css">
+
+<link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="pokebola" class="pokebola">
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar" srcset="">
+        </button>
+
+        <ul class="lista-pokemon">
+            <li class="cartao selecionado fundo1">
+                <div class="informacoes"> 
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Ele é a forma evoluida de Pichu quando chega num certo ponto de amizade com o treinador e evolui para Raichu quando esta segurando uma Thunder Stone.</p>
+                </div>
+            </li>
+           
+            <li class="cartao fundo2 ">
+                <div class="informacoes"> 
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/charizard.png" alt="Charizard" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Charizard voa pelo céu em busca de oponentes poderosos. Ele respira um calor tão grande que derrete qualquer coisa. No entanto, nunca dá um sopro ardente a qualquer oponente mais fraco que ele.</p>
+                </div>
+            </li>
+           
+            <li class="cartao fundo3 ">
+                <div class="informacoes"> 
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Como suas habilidades de batalha foram elevadas ao nível máximo, ele pensa apenas em derrotar seus inimigos.</p>
+                </div>
+            </li>
+           
+            <li class="cartao fundo4">
+                <div class="informacoes"> 
+                    <h2 class="nome">Azumarill</h2>
+                    <p class="vida">HP 700</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/imagens/azumaril.png" alt="Azumarill" class="imagem-pokemon" class="azumarill">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Ele passa a maior parte do tempo na água. Em dias ensolarados, Azumarill flutua na superfície da água e toma sol.</p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo5">
+                <div class="informacoes"> 
+                    <h2 class="nome">Eldegoss</h2>
+                    <p class="vida">HP 600</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/imagens/eldegoss.png" alt="Eldegoss" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        As sementes presas ao seu cotão de algodão estão cheias de nutrientes. Ele os espalha no vento para que plantas e outros Pokémon possam se beneficiar deles.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar" srcset="">
+        </button>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
